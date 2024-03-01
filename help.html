@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How can you help?</title>
+    <link rel="stylesheet" href="help.CSS">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <div class="container">
+        <div class="description">
+        <h1 >How can you help?</h1>
+            <p>Your support helps us continue our mission and make a positive impact. Every contribution counts!</p>
+       <p>With your support, we can break the cycle of poverty and create opportunities for a better tomorrow. Together, we can make a lasting difference in the lives of children and their families.</p>
+       <p>Thank you for considering a donation to our cause. Your generosity is greatly appreciated.</p>
+        </div>
+            <div id="donation-form" class="donation-form">
+
+        <form action="process_donation.php" method="POST">
+            <label for="amount">Enter Donation Amount:</label><br>
+            <input type="number" id="amount" name="amount" placeholder="Enter amount"min="1" required><br>
+            <label for="name">Your Name:</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name" required><br>
+            <label for="email">Your Email:</label><br>
+            <input type="email" id="email" name="email" placeholder="Your email" required><br>
+            <input type="submit" value="Donate Now"> </div>
+        </form>
+    </div>
+</body> 
+</body>
+</html>

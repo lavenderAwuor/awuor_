@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link rel="stylesheet" href="styless.css">
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link rel="stylesheet" 
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+          <section id="body" class="body">
+<section class="header">
+          <div class="logo">
+                    <img src="MAA Widows and OVC.jpg " alt="">
+                   
+          </div>
+          <nav class="nav">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="work.html">Our Work</a>
+                    <a href="help.html"> How to help</a>
+                    <a href="contact webpage.html">Contact Us</a>
+
+          </nav>
+</section>
+<section class="main">
+          <div class="right">
+                    <h1>MAA WIDOWS AND OVC</h1>
+          <p>
+                    MAA Widows, Orphans, and Vulnerable Children is a community-based organization (CBO) with the Registration Number NRK/HDM/03640. It was formally registered in 2022.
+Currently, our organization comprises 300 widows distributed across 10 wards within the county, with approximately 30 widows in each ward.
+
+          </p>
+          <div class="buttons">
+            <a href="./help.html">DONATE</a>
+            <a href="./about.html">VIEW MORE</a>
+          </div>
+          </div>.
+          <div class="sliders">
+                    <div class="images">
+                              <img class="slider-image" src="C:\Users\Admin\ngo_websites\IMG-20240220-WA0035.jpg" >
+                              <img class="slider-image" src="C:\Users\Admin\ngo_websites\IMG-20240220-WA0021.jpg" >
+                              <img class="slider-image" src="C:\Users\Admin\ngo_websites\IMG-20240220-WA0033.jpg" >
+                              <img class="slider-image" src="C:\Users\Admin\ngo_websites\IMG-20240220-WA0032.jpg" >
+                              <img class="slider-image" src="maa leader.jpg ">
+                              <img class="slider-image" src="maa women.jpg ">
+                              <img class="slider-image" src="women leader.jpg ">
+                    </div>
+          </div>
+
+
+</section>
+
+          </section>
+          <footer>
+            
+        <div class="social">
+        <!-- Add font awesome icons -->
+       <a href=" "> <i class="fa-brands fa-youtube"></i></a>
+       <a href=" "><i class="fa-brands fa-instagram"></i> </a>
+       <a href=" "> <i class="fa-brands fa-x-twitter"></i></a>
+       <a href=" "><i class="fa-brands fa-facebook"></i> </a>
+       <a href=" "><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <br>
+            <p>&copy; 2022 MAA WIDOWS AND OVC. All rights reserved.</p>
+        </footer>
+          <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const images = document.querySelectorAll('.slider-image');
+        let currentIndex = 0;
+
+        function showImage(index) {
+            images.forEach((image, i) => {
+                image.style.display = i === index ? 'block' : 'none';
+            });
+        }
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % images.length;
+            showImage(currentIndex);
+        }
+
+        // Adjust the interval (in milliseconds) for the slideshow speed
+        const interval = 3000;
+        setInterval(nextSlide, interval);
+    });
+</script>
+
+        
+</body>
+</html>

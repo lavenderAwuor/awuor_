@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+}
+.body{
+  background-image:url(IMG-20240220-WA0034.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.main {
+  display: flex;
+  align-items: center;
+}
+
+.images {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+}
+
+.images img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.sliders {
+  padding: 10px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 80%;
+  padding: 20px;
+  gap: 3rem;
+}
+.right h1{
+  font-size: 28px;
+  color:red;
+}
+.right p{
+  font-weight: 600;
+  line-height: 2;
+  color:white;
+  text-align: center;
+
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px;
+}
+
+.header {
+  background-color: none;
+  position: sticky;
+}
+
+.header .logo img {
+  width: 120px;
+  
+}
+.logo img{
+  width:100px;
+  height:100px;
+  border-radius:50%;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.nav a {
+  margin-right: 40px;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+
+.logo a {
+  color: white;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.nav a:hover {
+  background-color: red;
+  border-radius: 20px;
+  padding: 5px 10px;
+  margin-right: 15px;
+  color:black;
+}
+.images {
+  display: flex;
+  width: 100%;
+  overflow: hidden;
+  height:500px;
+  padding: 10px;
+}
+
+.slider-image {
+  width: 100%;
+  object-fit: cover;
+  display: none; /* Hide all images by default */
+  border-radius: 20px;
+}
+
+.slider-image:first-child {
+  display: block; /* Display the first image */
+}
+
+.sliders {
+  padding: 10px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  
+}   
+.buttons{
+display: flex;
+align-items: center;
+justify-content: space-between;
+gap: 2rem
+}  
+.buttons a{
+padding: 10px 20px;
+border-radius: 20px;
+color:red;
+background: none;
+box-shadow:  0 0 10px red;
+
+}
+.buttons a:hover{
+  background-color: red;
+  color:black;
+  box-shadow:  0 0 9px black;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+ Add a hover effect if you want 
+.fa:hover {
+  opacity: 0.7;
+}
+
+Set a specific color for each brand 
+
+ Facebook 
+.fa-facebook {
+  
+  color: white;
+}
+
+ Twitter 
+.fa-twitter {
+ 
+  color: white;
+}
+.fa-instagram{
+ 
+  color:pink;
+  border-radius:none;
+}
+footer {
+  text-align: center;
+padding: 15px;
+  background-color: red;
+  color: white;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+  overflow: hidden;
+  
+  
+}
+.container{
+  width: 80%;
+  margin: 50px auto;
+ }
+ .contact-box{
+  background: floralwhite;
+  display: flex;
+ }
+.contact-left{
+  flex-basis: 60%;
+  padding:40px 60px; 
+}
+.contact-right{
+  flex-basis: 40%;
+  padding:40px;
+  background: pink; 
+  color: ghostwhite;
+}
+h1{
+  margin-bottom: 10px;
+}
+.container p{
+  margin-bottom: 40px;
+}
+.input-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input-row .input-group{
+  flex-basis: 45%;
+}
+input{
+  width:100%; 
+  border: none;
+  border-bottom: 1px solid cornsilk;
+  outline:none;
+  padding-bottom: 50px;
+}
+textarea{
+width:100%;
+Border: 1px solid white;
+outline:none;
+padding:10px;
+}
+button{
+  background: lightcoral;
+  width: 100px;
+  Border:none;
+  outline: none;
+  color:white; 
+  Height:35px;
+  Border-radius:30px;
+  box-shadow: 0px 5px 15px 0px rgba(181, 0, 30, 0.795);
+  cursor: pointer;
+}
+ 
+.social{
+  display: flex;
+  align-items: center;
+ gap:2rem;
+
+
+}
+.social a{
+  color:white;
+  font-size: 22px;
+  display: inline-flex;
+  border: 2px solid red;
+  box-shadow: 0 0 9px black;
+  border-radius: 50%;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.socials p{
+  padding: 20px;
+}
+.card{
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap:2rem;
+}

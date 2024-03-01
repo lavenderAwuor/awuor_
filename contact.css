@@ -1,0 +1,110 @@
+*{
+  margin: 0;
+  padding:0;
+}
+body{
+  background-image:url(IMG-20240220-WA0034.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 15px;
+      font-family: "Poppins", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      margin:0;
+      padding:0;
+}
+ .container{
+  width: 80%;
+  margin: 50px auto;
+ }
+ .contact-box{
+  background: white;
+  display: flex;
+ }
+.contact-left{
+  flex-basis: 60%;
+  padding:40px 60px; 
+}
+.contact-right{
+  flex-basis: 40%;
+  padding:40px;
+  background: linear-gradient(to right #190A05 , #870000) ;
+  background: #870000;
+  color: white;
+}
+h1{
+  margin-bottom: 10px;
+  color:white;
+}
+.container p{
+  margin-bottom: 40px;
+  color:white;
+}
+.input-row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.input-row .input-group{
+  flex-basis: 45%;
+}
+input{
+  width:100%; 
+  border: none;
+  border-bottom: 1px solid cornsilk;
+  outline:none;
+  padding-bottom: 50px;
+}
+textarea{
+width:100%;
+Border: 1px solid white;
+outline:none;
+padding:10px;
+}
+button{
+  background: #870000;
+  width: 100px;
+  Border:none;
+  outline: none;
+  color:white; 
+  Height:35px;
+  Border-radius:30px;
+  box-shadow: 0px 5px 15px 0px rgba(181, 0, 30, 0.795);
+  cursor: pointer;
+}
+
+.contact-left h3{
+  color:red;
+  font-weight:600;
+  margin-bottom: 30px;
+}
+.contact-right h3{
+  color:black;
+  font-weight:600;
+  margin-bottom: 30px;
+}
+tr td:first-child{
+  padding-right: 20px;
+}
+tr td{
+  padding-top: 20px;
+ 
+}
+input{
+  background-color: rgb(114, 108, 108);
+  padding: 10px;
+  border-radius: 20px;
+
+}
+input::placeholder{
+  color:white;
+}
+textarea::placeholder{
+  color:white;
+  
+}
+textarea{
+  background-color: rgb(114, 108, 108);
+  border-radius: 10px;
+}
+
