@@ -1,38 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How can you help?</title>
-    <link rel="stylesheet" href="./help.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <meta charset="UTF-8">
+  <title>CodePen - Donate page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./help.css">
+
 </head>
 <body>
-    <section class="header">
+          <section class="header">
 
-        <a href="index.html"><img src="MAA Widows and OVC.jpg " alt=""></a>
-  
-
-                      </section>
-    <div class="container">
-        <div class="description">
-        <h1 >How can you help?</h1>
-            <p>Your support helps us continue our mission and make a positive impact. Every contribution counts!</p>
-       <p>With your support, we can break the cycle of poverty and create opportunities for a better tomorrow. Together, we can make a lasting difference in the lives of children and their families.</p>
-       <p>Thank you for considering a donation to our cause. Your generosity is greatly appreciated.</p>
+                    <a href="index.html"><img src="MAA Widows and OVC.jpg" alt=""></a>
+                                  </section>
+<div class="donate">
+  <div class="donate-black">
+    <h2><span>$</span> Donate</h3>
+    <p>Your contribution is vital to the success of our initiative.<br>Choose the amount you wish to donate with paypal, as one-time or monthly payment. </p>
+  </div>
+  <div class="donate-blue">
+    <h3>Donation amount</h3>
+    <div class="donate-amount-box">
+      <div class="donate-amount">
+        <div class="denomination selected">
+          <input autocomplete="off" type="radio" name="amount" id="amount5" value="5" checked="">
+          <label for="amount5">$5</label>
         </div>
-            <div id="donation-form" class="donation-form">
-
-        <form action="process_donation.php" method="POST">
-            <label for="amount">Enter Donation Amount:</label><br>
-            <input type="number" id="amount" name="amount" placeholder="Enter amount"min="1" required><br>
-            <label for="name">Your Name:</label><br>
-            <input type="text" id="name" name="name" placeholder="Your name" required><br>
-            <label for="email">Your Email:</label><br>
-            <input type="email" id="email" name="email" placeholder="Your email" required><br>
-            <input type="submit" value="Donate Now"> </div>
-        </form>
+        <div class="denomination">
+          <input autocomplete="off" type="radio" name="amount" id="amount10" value="10">
+          <label for="amount10">$10</label>
+        </div>
+        <div class="denomination">
+          <input autocomplete="off" type="radio" name="amount" id="amount15" value="15">
+          <label for="amount15">$15</label>
+        </div>
+        <div class="denomination">
+          <input autocomplete="off" type="radio" name="amount" id="amount25" value="25">
+          <label for="amount25">$25</label>
+        </div>
+        <div class="denomination">
+          <input autocomplete="off" type="radio" name="amount" id="amount50" value="50">
+          <label for="amount50">$50</label>
+        </div>
+        <div class="denomination">
+          <input autocomplete="off" type="radio" name="amount" id="amount100" value="100">
+          <label for="amount100">$100</label>
+        </div>
+      </div>
+      <div class="denomination-other">
+          <input autocomplete="off" type="text" name="amount" value="" placeholder="Enter Other Amount">
+        </div>
     </div>
-</body> 
+  </div>
+  <div class="donate-black donate-type">
+    <h3>Donation type</h3>
+    <label>
+    			<input type="radio" name="donation_type" value="single" checked="checked" autocomplete="off" class="required">
+    			One-Time
+    </label>
+    <label>
+    			<input type="radio" name="donation_type" value="recurring" autocomplete="off" class="required">
+    			Monthly
+    </label>
+  </div>
+  <div class="donate-blue donate-payment">
+    <h3>Payment Method</h3>
+    <div>
+      <label>
+        <input type="radio" name="payment" value="paypal" checked="checked" autocomplete="off">PayPal
+      </label>
+      <label>
+        <input type="radio" name="payment" value="crypto" autocomplete="off"> Other items
+      </label>
+    </div>
+    <div class="donate-submit">
+      <button type="submit" autocomplete="off">Donate $5</button>
+      <p><small>Please note that contributions are not tax-deductible.</small></p>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+
 </body>
 </html>
+
