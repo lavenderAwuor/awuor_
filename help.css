@@ -1,85 +1,174 @@
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600);
+
+
 body {
-  background-image:url(continent.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  font-family: "Poppins", sans-serif;
-  margin: 0;
-  padding: 0;
-}
-
-.container {
-  width: 80%;
-  max-width: 600px;
-  margin: 50px auto;
-  background-color: white;
-  padding: 20px;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-img{
-  width:140px;
-  height: 140px;
-  border-radius: 50%;
-}
-.header{
+background:url(continent.jpg);
+background-size: 100vw 100vh;
+  font-family: "Open Sans", sans-serif;
+  justify-content: center;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap:1rem;
-}
-.header p{
-  text-align: center;
-  line-height: 2;
-  font-weight: 600;
-}
-
-h1 {
-  text-align: center;
-}
-.description {
-  height: 50vh; /* Height to be equal to viewport length*/
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  gap:2rem;
+  padding: 20px 0;
   
 }
-
-.donation-form {
-  padding: 50px 0; /*padding to push the form down */
-}
-form {
-  margin-top: 20px;
-}
-.donation-form {
-  margin-top: 20px;
-  padding-top: 20px;
-  border-top: 1px solid #ccc;
-}
-label {
-  font-weight: bold;
+img{
+          width:140px;
+          height: 140px;
+          border-radius: 50%;
 }
 
-input[type="number"],
-input[type="text"],
-input[type="email"],
-input[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  margin: 5px 0;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-sizing: border-box;
+.donate {
+  padding: 50px;
+  background-color: #494a4b;
+  width: 500px;
+  color: #FFF;
 }
 
-input[type="submit"] {
-  background-color:red;
-  color: white;
+.donate p {
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.donate h3 {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.denomination {
+  float: left;
+  width: 33%;
+  text-align: center;
+  padding: 13px 0;
+  cursor: pointer;
+  background-color: #171b24;
+  margin: 0 1px 1px 0;
+  transition: background-color 0.2s ease;
+}
+
+.denomination label {
+  font-weight: 600;
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
-  background-color: #a06945;
+.denomination input {
+  left: -10001px;
+  position: absolute;
+}
+
+.denomination-other {
+  width: 99.8%;
+}
+
+.denomination-other input {
+  position: relative;
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 600;
+  width: inherit;
+  text-align: center;
+  background-color: #171b24;
+  border: none;
+  padding: 13px 0;
+  transition: background-color 0.2s ease;
+}
+
+.denomination-other input:hover {
+  background-color: #ec3029;
+}
+
+.denomination-other input:before {
+  position: absolute;
+  left: 6px;
+  top: 2px;
+  content: "$";
+}
+
+.donate-amount .selected, .denomination-other input.selected, .donate-amount .denomination:hover {
+  background-color: #EC3029;
+  border: 0;
+}
+
+.donate-black h2 {
+  font-family: "Oswald", sans-serif;
+  color: #FFF;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+.donate-black h2 span {
+  display: block;
+  float: left;
+  font-size: 16px;
+  padding-top: 7px;
+  margin-right: 20px;
+  text-align: center;
+  width: 30px;
+  height: 25px;
+  background-color: #ec3029;
+  border-radius: 50%;
+}
+
+.donate-type label,
+.donate-payment label {
+  font-size: 14px;
+  font-weight: 300;
+  margin-right: 30px;
+}
+
+.donate-blue {
+  background-color: #1e252d;
+  padding: 25px;
+}
+
+.donate-black {
+  padding: 25px;
+}
+
+.donate-submit button {
+  font-family: "Oswald", sans-serif;
+  width: 100%;
+  background-color: #ec3029;
+  border: none;
+  color: #FFF;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 14px 0;
+  margin: 30px 0;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.donate-submit small {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 13px;
+}
+
+::-webkit-input-placeholder {
+  color: #FFF;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+:-moz-placeholder {
+  color: #FFF;
+  font-weight: 300;
+}
+
+::-moz-placeholder {
+  color: #FFF;
+  font-weight: 300;
+}
+
+:-ms-input-placeholder {
+  font-weight: 300;
+  color: #FFF;
+}
+
+*:focus {
+  outline: none;
 }
