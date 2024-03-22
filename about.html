@@ -104,8 +104,20 @@
                         <p>&copy; 2024 MAA WIDOWS AND OVC. All rights reserved.</p></footer>
           
           <script src="script.js">
-          
- 
+          </script>
+ <script type="text/javascript">
+    (function(d, t) {
+        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+        v.onload = function() {
+          window.voiceflow.chat.load({
+            verify: { projectID: '65fc0b9e68f42ebfd841e7e4' },
+            url: 'https://general-runtime.voiceflow.com',
+            versionID: 'production'
+          });
+        }
+        v.src = "https://cdn.voiceflow.com/widget/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+    })(document, 'script');
   </script>
+  
 </body>
 </html>
