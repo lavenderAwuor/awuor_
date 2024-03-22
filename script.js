@@ -54,15 +54,18 @@ document.addEventListener("DOMContentLoaded", function () {
       });
   }
 
-  function nextSlide() {
+  function nextImage() {
       currentIndex = (currentIndex + 1) % images.length;
       showImage(currentIndex);
   }
 
-  const interval = 3000;
-  setInterval(nextSlide, interval);
-
-  // Initially show the first image
+  // Show the first image initially
   showImage(currentIndex);
+
+  // Automatically transition to the next image every 3 seconds (adjust as needed)
+  setInterval(nextImage, 3000);
 });
+
+
+
 
