@@ -168,8 +168,8 @@ hr{
   overflow-y: hidden;
 }
 .slider img{
-  object-fit: contain;
-width: 100%;
+  object-fit: cover;
+width: 100vw;
 
 }
 .describe{
