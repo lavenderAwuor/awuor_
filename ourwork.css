@@ -35,7 +35,9 @@ img{
   line-height: 2;
   font-weight: 600;
 }
-
+h1{
+  color: orange;
+}
 
 nav ul {
   list-style-type: none;
