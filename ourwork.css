@@ -5,6 +5,9 @@
 }
 
 body {
+  background-image:url(hand-holding);
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: Arial, sans-serif;
   background: off black;
   font-size: 15px;
