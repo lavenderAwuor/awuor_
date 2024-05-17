@@ -82,7 +82,9 @@ img {
 }
 .footer{
   background-color: white;
-  color: white;
+  color: black;
   padding: 20px;
+  display: flex;
   text-align: center;
+  flex-direction: column;
         }
