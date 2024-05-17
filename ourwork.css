@@ -80,7 +80,7 @@ img {
   display: block;
   margin-top: 20px;
 }
-footer {
+.footer{
   background-color: #333;
   color: white;
   padding: 10px 20px;
