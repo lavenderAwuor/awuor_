@@ -8,7 +8,7 @@ jobs:
     name: FTP-Deploy-Action
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkbox@v2.1.0
+    - uses: actions/checkbox@v2.317.0
       with: 
         fetch-depth: 2
     - name: FTP-Deploy-Action
