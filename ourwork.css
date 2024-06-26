@@ -25,7 +25,7 @@ img{
 .header{
   background-color:black;
   color: orangered;
-  padding: 15px;
+  padding: 10px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -80,11 +80,3 @@ img {
   display: block;
   margin-top: 20px;
 }
-.footer{
-  background-color: white;
-  color: black;
-  padding: 20px;
-  display: flex;
-  text-align: center;
-  flex-direction: column;
-        }
