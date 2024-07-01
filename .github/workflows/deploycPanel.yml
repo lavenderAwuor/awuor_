@@ -1,1 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/username/public_html/awuor_
+    - /bin/cp -R * $DEPLOYPATH
+    - /bin/cp -R .* $DEPLOYPATH
 
