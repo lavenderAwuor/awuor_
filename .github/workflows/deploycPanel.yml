@@ -1,7 +1,30 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/username/public_html/awuor_
-    - /bin/cp -R * $DEPLOYPATH
-    - /bin/cp -R .* $DEPLOYPATH
-
+    - export DEPLOYPATH=/home/maawidow/public_html/
+    - /bin/cp IST1025.PROJECT .zip $DEPLOYPATH
+    - /bin/cp MAA Widows and OVC.jpg $DEPLOYPATH
+    - /bin/cp about.css $DEPLOYPATH
+    - /bin/cp about.html $DEPLOYPATH
+    - /bin/cp children.jpg $DEPLOYPATH
+    - /bin/cp childrenplay.jpg $DEPLOYPATH
+    - /bin/cp childsmiles.jpg $DEPLOYPATH
+    - /bin/cp contact webpage.html $DEPLOYPATH
+    - /bin/cp contact.css $DEPLOYPATH
+    - /bin/cp continent.jpg $DEPLOYPATH
+    - /bin/cp girlbooks.jpg $DEPLOYPATH
+    - /bin/cp hand-holding.jpeg $DEPLOYPATH
+    - /bin/cp help.css $DEPLOYPATH
+    - /bin/cp help.html $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp maa leader.jpg $DEPLOYPATH
+    - /bin/cp maa women.jpg $DEPLOYPATH
+    - /bin/cp maaschool.jpg $DEPLOYPATH
+    - /bin/cp nav.js $DEPLOYPATH
+    - /bin/cp ourwork.css $DEPLOYPATH
+    - /bin/cp photo.jpg $DEPLOYPATH
+    - /bin/cp script.js $DEPLOYPATH
+    - /bin/cp styless.css $DEPLOYPATH
+    - /bin/cp well.jpg $DEPLOYPATH
+    - /bin/cp women leader.jpg $DEPLOYPATH
+    - /bin/cp work.html $DEPLOYPATH
